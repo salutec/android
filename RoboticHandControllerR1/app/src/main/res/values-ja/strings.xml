@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Robotic Hand Controller</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_help">Help</string>
+    <string name="action_about">About</string>
+    <string name="tb1_open">Little Open</string>
+    <string name="tb1_close">Little Close</string>
+    <string name="tb2_open">Ring Open</string>
+    <string name="tb2_close">Ring Close</string>
+    <string name="tb3_open">Middle Open</string>
+    <string name="tb3_close">Middle Close</string>
+    <string name="tb4_open">Fore Open</string>
+    <string name="tb4_close">Fore Close</string>
+    <string name="tb5_open">Thumb Open</string>
+    <string name="tb5_close">Thumb Close</string>
+    <string name="tb6_open">All Open</string>
+    <string name="tb6_close">All Close</string>
+    <string name="tb7_left">Left Hand\n(switch)</string>
+    <string name="tb7_right">Right Hand\n(switch)</string>
+    <string name="tb8_pinch_on">P-ON\n(switch)</string>
+    <string name="tb8_pinch_off">P-OFF\n(switch)</string>
+    <string name="tb9_oscillate_on">Oss-ON\n(switch)</string>
+    <string name="tb9_oscillate_off">Oss-OFF\n(switch)</string>
+    <string name="activate_control">Activate Ctl</string>
+
+</resources>

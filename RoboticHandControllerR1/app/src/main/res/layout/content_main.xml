@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lwlbg"
+    tools:showIn="@layout/activity_main">
+
+
+<ToggleButton
+    android:id="@+id/tb1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/tb6"
+    android:layout_alignBottom="@+id/tb6"
+    android:layout_toLeftOf="@+id/tb6"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="25dp"
+    android:background="@drawable/mybutton"
+    android:text="ToggleButton 1"
+    android:textOn="@string/tb1_open"
+    android:textOff="@string/tb1_close" />
+
+<ToggleButton
+    android:id="@+id/tb2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/tb3"
+    android:layout_alignBottom="@+id/tb3"
+    android:layout_toLeftOf="@+id/tb3"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:background="@drawable/mybutton"
+    android:text="ToggleButton 2"
+    android:textOn="@string/tb2_open"
+    android:textOff="@string/tb2_close" />
+
+
+    <ToggleButton
+        android:id="@+id/tb3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_above="@+id/tb6"
+        android:background="@drawable/mybutton"
+        android:text="ToggleButton 3"
+        android:textOn="@string/tb3_open"
+        android:textOff="@string/tb3_close" />
+
+
+    <ToggleButton
+        android:id="@+id/tb4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tb3"
+        android:layout_alignBottom="@+id/tb3"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_toRightOf="@+id/tb3"
+        android:background="@drawable/mybutton"
+        android:text="ToggleButton 4"
+        android:textOn="@string/tb4_open"
+        android:textOff="@string/tb4_close" />
+
+    <ToggleButton
+        android:id="@+id/tb5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tb6"
+        android:layout_alignBottom="@+id/tb6"
+        android:layout_toRightOf="@+id/tb6"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/mybutton"
+        android:text="ToggleButton 5"
+        android:textOn="@string/tb5_open"
+        android:textOff="@string/tb5_close" />
+
+
+    <ToggleButton
+        android:id="@+id/tb6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_above="@+id/tb7"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/mybutton"
+        android:text="ToggleButton 6"
+        android:textOn="@string/tb6_open"
+        android:textOff="@string/tb6_close" />
+
+
+    <ToggleButton
+        android:id="@+id/tb7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:checked="false"
+        android:layout_marginTop="8dp"
+        android:textAppearance="?android:attr/textAppearanceLargePopupMenu"
+        android:background="@drawable/controlbutton"
+        android:text="ToggleButton 7"
+        android:textOn="@string/tb7_left"
+        android:textOff="@string/tb7_right" />
+
+    <ToggleButton
+        android:id="@+id/tb8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tb7"
+        android:layout_toRightOf="@+id/tb7"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:checked="false"
+        android:layout_marginTop="8dp"
+        android:textAppearance="?android:attr/textAppearanceLargePopupMenu"
+        android:background="@drawable/mybutton"
+        android:text="ToggleButton 8"
+        android:textOn="@string/tb8_pinch_on"
+        android:textOff="@string/tb8_pinch_off" />
+
+
+    <ToggleButton
+        android:id="@+id/tb9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tb7"
+        android:layout_toLeftOf="@+id/tb7"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:checked="false"
+        android:layout_marginTop="8dp"
+        android:textAppearance="?android:attr/textAppearanceLargePopupMenu"
+        android:background="@drawable/mybutton"
+        android:text="ToggleButton 9"
+        android:textOn="@string/tb9_oscillate_on"
+        android:textOff="@string/tb9_oscillate_off" />
+
+
+
+    <android.support.v7.widget.SwitchCompat
+    android:id="@+id/switchButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_below="@+id/tb7"
+    android:checked="false"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:text="@string/activate_control"
+    />
+
+</RelativeLayout>
